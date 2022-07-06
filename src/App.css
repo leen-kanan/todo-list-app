@@ -51,6 +51,15 @@ body {
   border-bottom-right-radius: 0;
   padding-left: 15px;
 }
+
+/* if device screen is 600 or less, then make the input field smaller */
+@media only screen and (max-width: 600px) {
+  .newTodo {
+    max-width: 250px;
+    width: 100%;
+  }
+}
+
 .sbmtBtn {
   color: rgb(102, 91, 71);
   border-radius: 15px;
