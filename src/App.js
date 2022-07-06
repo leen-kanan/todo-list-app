@@ -4,14 +4,14 @@ import { Item } from "./component/item";
 
 function App() {
   const data = [
-    "Wake Up at 7am",
+    "Wake Up early",
     "Breakfast",
-    "Pray",
+    "Yoga",
     "Study",
-    "Gym for 20mins",
-    "Cooking",
+    "Gym for 30mins",
+    "Cook",
     "Lunch",
-    "Watch Tv",
+    "Read a book",
     "Sleep at 11pm",
   ];
   const [tasks, setTasks] = useState(data);
