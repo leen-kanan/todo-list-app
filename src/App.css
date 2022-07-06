@@ -1,0 +1,90 @@
+h1 {
+  font-size: 50px;
+  text-shadow: 3px 3px 6px rgb(249 246 243);
+  color: #3d2a08;
+}
+
+.App {
+  text-align: center;
+  background-color: wheat;
+  font-family: monospace;
+}
+
+body {
+  background-color: wheat;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(252, 252, 252);
+}
+
+.tasksList {
+  border: 2px solid rgb(0, 0, 0);
+  border-style: double;
+  text-align: left;
+  padding: 25px;
+  font-size: 25px;
+  margin: 50px;
+}
+
+.Item:hover {
+  background-color: rgb(219, 198, 158);
+}
+
+.deleteBtn:hover {
+  color: rgb(148, 132, 102);
+}
+
+.newTodo {
+  width: 500px;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 15px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding-left: 15px;
+}
+.sbmtBtn {
+  color: rgb(102, 91, 71);
+  border-radius: 15px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: unset;
+  height: 41px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.sbmtBtn:hover {
+  background-color: rgb(238, 233, 224);
+  border-bottom: 3px solid black;
+}
+.sbmtBtn:active {
+  background-color: rgb(175, 165, 146);
+}
+
+.clear {
+  color: rgb(102, 91, 71);
+  border-radius: 15px;
+  height: 41px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.clear:hover {
+  background-color: rgb(238, 233, 224);
+  border-bottom: 3px solid black;
+}
+.clear:active {
+  background-color: rgb(175, 165, 146);
+}
+
+footer {
+  margin: 25px 0px;
+  font-size: 20px;
+}
