@@ -38,7 +38,7 @@ function App() {
       <h1>TODO LIST</h1>
       <input
         type="text"
-        placeholder="Add new todo"
+        placeholder="Add a new task"
         className="newTodo"
         onKeyUp={handleAddTodoInput}
       />
